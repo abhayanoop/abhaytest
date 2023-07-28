@@ -23,5 +23,7 @@ runs:
       shell: bash
     - run: pwd
       shell: bash
+    - run: ls "${{ github.action_path }}"
+      shell: bash
     - run: abhay.sh
       shell: bash
