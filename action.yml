@@ -22,5 +22,6 @@ runs:
     - run: echo "$ls"
       shell: bash
     - run: echo "$pwd"
+      shell: bash
     - run: abhay.sh
       shell: bash
