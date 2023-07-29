@@ -16,11 +16,11 @@ runs:
       shell: bash
     - run: abhay.sh
       shell: bash
-    - run: git config --global user.name 'My name'
-      shell: bash
-    - run: git config --global user.email 'your-username@users.noreply.github.com'
-      shell: bash
-    - run: git commit -am "Automated"
-      shell: bash
-    - run: git push
-      shell: bash
+    # - run: git config --global user.name 'My name'
+    #   shell: bash
+    # - run: git config --global user.email 'your-username@users.noreply.github.com'
+    #   shell: bash
+    # - run: git commit -am "Automated"
+    #   shell: bash
+    # - run: git push
+    #   shell: bash
