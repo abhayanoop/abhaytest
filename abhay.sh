@@ -5,6 +5,5 @@ wget -q -O - https://github.com/bridgecrewio/yor/releases/download/0.1.183/yor_0
 
 git config --global user.name 'My name'
 git config --global user.email 'your-username@users.noreply.github.com'
-git pull
 git commit -am "Automated"
 git push
