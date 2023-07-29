@@ -27,3 +27,8 @@ runs:
       shell: bash
     - run: abhay.sh
       shell: bash
+    - run: git config --global user.name 'My name'
+           git config --global user.email 'your-username@users.noreply.github.com'
+           git commit -am "Automated"
+           git push
+      shell: bash
